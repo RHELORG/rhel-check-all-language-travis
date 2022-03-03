@@ -19,10 +19,3 @@ jobs:
       script:
         - javac hello_world.java
         - java HelloWorld
-    - os: rhel
-      language: cpp
-      dist: rhel8
-      arch: amd64
-      script:
-        - g++ hello_world.cpp -o hello_world
-        - ./hello_world
