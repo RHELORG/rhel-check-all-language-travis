@@ -6,7 +6,7 @@ jobs:
       arch: amd64
       script:
         - go run hello_world.go
-    - os: rhel
+    - os: linux
       dist: rhel8
       language: python
       arch: amd64
